@@ -1,0 +1,5 @@
+{% extends "main.html" %} {% block content %} {% load static %} {{request.user}}
+<!-- {{request.user.avatar.url}} -->
+<img src="{% static 'romr.jpg' %}" alt="avatar" width="150" />
+<h1 class="text-3xl text-center">AgriMan</h1>
+{% endblock content %}
